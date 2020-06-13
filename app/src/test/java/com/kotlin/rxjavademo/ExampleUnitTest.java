@@ -22,7 +22,7 @@ public class ExampleUnitTest {
     }
 
     @Test
-    public void ptest(){
+    public void pizzaTest(){
         Pizza x = new BasePizza();
         PizzaA p = new PizzaA(new PizzaB(new PizzaC(x)));
         p.show();
